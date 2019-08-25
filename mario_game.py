@@ -54,7 +54,7 @@ def check_level():
 def game():
     
     global topscore,score,black,end,End,flame,Flame,Mario,mario
-    pygame.mixer.music.load('mario_theme.wav')
+    pygame.mixer.music.load('mario_theme.mp3')
     mario=pygame.image.load('maryo.png')
     dragon=pygame.image.load('dragon.png')
     fire=pygame.image.load('fire_bricks.png')
